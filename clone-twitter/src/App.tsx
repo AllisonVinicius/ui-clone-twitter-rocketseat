@@ -1,7 +1,16 @@
 import React from 'react';
 
+import GlobalStyles from './styles/GlobalStyles';
+
+import Layout from './components/Layout';
+
 function App() {
-  return <h1>Allison, vai ser muito bom ainda</h1>;
+  return (
+    <>
+      <Layout />;
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
