@@ -15,13 +15,13 @@ const Main: React.FC = () => {
           <span> 1 tweet</span>
         </ProfileInfo>
       </Header>
-      {/* <ProfilePage /> */}
-      {/* <BottomMenu>
+      <ProfilePage />
+      <BottomMenu>
         <HomeIcon />
         <SearchIcon />
         <BellIcon />
         <EmailIcon />
-      </BottomMenu> */}
+      </BottomMenu>
     </Container>
   );
 };
