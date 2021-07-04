@@ -1,6 +1,17 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './styles';
+import {
+  Container,
+  Header,
+  BackIcon,
+  ProfileInfo,
+  BottomMenu,
+  HomeIcon,
+  SearchIcon,
+  BellIcon,
+  EmailIcon,
+  ProfilePage,
+} from './styles';
 
 const Main: React.FC = () => {
   return (
