@@ -8,8 +8,9 @@ const Layout: React.FC = () => {
   return (
     <Container>
       <Wrapper>
+        <Main />
+        
         {/* <MenuBar>
-          <Main />
           <SideBar />
         </MenuBar> */}
       </Wrapper>
